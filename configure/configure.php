@@ -1,10 +1,10 @@
 <?php 
 ob_start();
 
-$db_host 	 = 'localhost';
-$db_user 	 = 'root';
-$db_password     = '';
-$db_name 	 = 'hostiio4_rezichem';
+$db_host 	 = '64.227.43.33';
+$db_user 	 = 'sejqevyyss';
+$db_password     = 'HSw3jcQND9';
+$db_name 	 = 'sejqevyyss';
 
 
 date_default_timezone_set('Asia/Kolkata');
@@ -18,7 +18,7 @@ define('CONTENTTYPE','<meta http-equiv="content-type" content="text/html; charse
 
 //define('SITEURL','http://192.168.1.24/dinesh/shakti/');
 
-define('SITEURL','http://localhost/dashboard/rezichem/');
+define('SITEURL','http://phpstack-376548-1179447.cloudwaysapps.com/');
 
 define('ADMINURL',SITEURL.'adminpanel/');
 
