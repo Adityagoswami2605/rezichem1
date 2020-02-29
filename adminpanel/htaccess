@@ -1,0 +1,7 @@
+RewriteCond %{HTTP_HOST} ^elala.in$
+#RewriteRule (.*) http://www.elala.in/beta/mystore/$1 [R=301,L]
+
+RewriteEngine On
+RewriteBase /mystore/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
